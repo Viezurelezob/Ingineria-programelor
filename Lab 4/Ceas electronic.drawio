@@ -1,1 +1,69 @@
-<mxfile host="app.diagrams.net" modified="2022-04-13T13:04:15.437Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.79 Safari/537.36" version="17.4.3" etag="vFrcwaB6Ckm455Q2Foxq" type="github"><diagram id="MNevZP5MxtnnmQk-LOBl">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-04-13T13:21:45.150Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.79 Safari/537.36" etag="ViunlCiLr56ZgKUt2xia" version="17.4.3" type="github">
+  <diagram id="MNevZP5MxtnnmQk-LOBl" name="Page-1">
+    <mxGraphModel dx="735" dy="1816" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="EjN1yXS_5jYwm7-RPkpo-1" value=" Ceas electronic (afişare ora curentă / data curentă, modificare oră / dată, cronometru etc.) " style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="670" y="-140" width="260" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="EjN1yXS_5jYwm7-RPkpo-2" value="Afisare ora" style="shape=umlFrame;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="40" width="700" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="EjN1yXS_5jYwm7-RPkpo-3" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="70" y="90" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EjN1yXS_5jYwm7-RPkpo-4" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" source="EjN1yXS_5jYwm7-RPkpo-3" parent="1" target="EjN1yXS_5jYwm7-RPkpo-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="85" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EjN1yXS_5jYwm7-RPkpo-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EjN1yXS_5jYwm7-RPkpo-5" target="EjN1yXS_5jYwm7-RPkpo-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EjN1yXS_5jYwm7-RPkpo-5" value="Conectare internet/bluetooth" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="140" y="80" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="EjN1yXS_5jYwm7-RPkpo-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EjN1yXS_5jYwm7-RPkpo-6" target="EjN1yXS_5jYwm7-RPkpo-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EjN1yXS_5jYwm7-RPkpo-12" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EjN1yXS_5jYwm7-RPkpo-10">
+          <mxGeometry x="-0.3946" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EjN1yXS_5jYwm7-RPkpo-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="EjN1yXS_5jYwm7-RPkpo-6" target="EjN1yXS_5jYwm7-RPkpo-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="310" y="165" />
+              <mxPoint x="190" y="165" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EjN1yXS_5jYwm7-RPkpo-19" value="Nu" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EjN1yXS_5jYwm7-RPkpo-18">
+          <mxGeometry x="-0.3016" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EjN1yXS_5jYwm7-RPkpo-6" value="Conectare&lt;br&gt;reusita" style="rhombus;whiteSpace=wrap;html=1;rounded=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="270" y="65" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EjN1yXS_5jYwm7-RPkpo-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EjN1yXS_5jYwm7-RPkpo-9" target="EjN1yXS_5jYwm7-RPkpo-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EjN1yXS_5jYwm7-RPkpo-9" value="Get date / time" style="whiteSpace=wrap;html=1;rounded=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="390" y="75" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EjN1yXS_5jYwm7-RPkpo-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="EjN1yXS_5jYwm7-RPkpo-13" target="EjN1yXS_5jYwm7-RPkpo-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EjN1yXS_5jYwm7-RPkpo-13" value="Afisare date / time" style="whiteSpace=wrap;html=1;rounded=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="500" y="75" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EjN1yXS_5jYwm7-RPkpo-16" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="640" y="90" width="30" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
