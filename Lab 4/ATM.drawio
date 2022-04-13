@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2022-04-13T12:58:26.134Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.79 Safari/537.36" etag="8E_oHqPlTyWX3_OTTvBH" version="17.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-13T13:02:44.820Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.79 Safari/537.36" etag="2n83-kdwQFkjLcdC6vGh" version="17.4.3" type="github">
   <diagram id="KxCZLF1t46evcHAlCOS2" name="Page-1">
-    <mxGraphModel dx="1604" dy="1576" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="944" dy="927" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="lsTzPiZq1YOw1p8u2fON-13" value="sm Menu Input" style="shape=umlFrame;whiteSpace=wrap;html=1;width=90;height=30;" vertex="1" parent="1">
-          <mxGeometry x="380" y="190" width="620" height="760" as="geometry" />
+          <mxGeometry x="402.5" y="190" width="620" height="760" as="geometry" />
         </mxCell>
         <mxCell id="lsTzPiZq1YOw1p8u2fON-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.251;entryY=0.004;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="lsTzPiZq1YOw1p8u2fON-1" target="lsTzPiZq1YOw1p8u2fON-3">
           <mxGeometry relative="1" as="geometry" />
@@ -127,6 +127,40 @@
         </mxCell>
         <mxCell id="lsTzPiZq1YOw1p8u2fON-35" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
           <mxGeometry x="815" y="730" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lsTzPiZq1YOw1p8u2fON-38" value="" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="lsTzPiZq1YOw1p8u2fON-39">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="710" y="620" as="sourcePoint" />
+            <mxPoint x="680" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lsTzPiZq1YOw1p8u2fON-41" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="lsTzPiZq1YOw1p8u2fON-39" target="lsTzPiZq1YOw1p8u2fON-35">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="600" y="745" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lsTzPiZq1YOw1p8u2fON-39" value="Oferire bani" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="550" y="595" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="lsTzPiZq1YOw1p8u2fON-45" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lsTzPiZq1YOw1p8u2fON-42" target="lsTzPiZq1YOw1p8u2fON-46">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="500" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lsTzPiZq1YOw1p8u2fON-42" value="Schimbare PIN" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="450" y="510" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lsTzPiZq1YOw1p8u2fON-47" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="lsTzPiZq1YOw1p8u2fON-46" target="lsTzPiZq1YOw1p8u2fON-35">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="500" y="756" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lsTzPiZq1YOw1p8u2fON-46" value="Introducere PIN&lt;br&gt;nou" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="450" y="560" width="100" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
